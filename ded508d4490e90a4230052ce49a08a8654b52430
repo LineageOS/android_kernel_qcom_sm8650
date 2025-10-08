@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "73709c69_34c8234b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-10-08T13:41:04Z",
+      "side": 1,
+      "message": "You should restore the changes that were discarded here https://review.lineageos.org/c/LineageOS/android_kernel_qcom_sm8650/+/452396/1/drivers/soc/qcom/mdt_loader.c and then redo this merge on top of that.",
+      "revId": "ded508d4490e90a4230052ce49a08a8654b52430",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
