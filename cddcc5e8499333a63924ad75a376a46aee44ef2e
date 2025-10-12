@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5fc69990_65d69e8b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2025-10-12T11:00:14Z",
+      "side": 1,
+      "message": "rather ifndef it like it\u0027s done for other drivers in the upstream commit linked in commit message",
+      "revId": "cddcc5e8499333a63924ad75a376a46aee44ef2e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
