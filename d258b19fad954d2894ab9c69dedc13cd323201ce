@@ -39,6 +39,30 @@
       },
       "revId": "d258b19fad954d2894ab9c69dedc13cd323201ce",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4bd97922_89c2501c",
+        "filename": "net/unix/garbage.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 362,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-10-28T04:04:59Z",
+      "side": 1,
+      "message": "Oops, I missed it. Thanks for the heads-up!",
+      "parentUuid": "a7c766e0_e45aae1d",
+      "range": {
+        "startLine": 362,
+        "startChar": 4,
+        "endLine": 362,
+        "endChar": 25
+      },
+      "revId": "d258b19fad954d2894ab9c69dedc13cd323201ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
