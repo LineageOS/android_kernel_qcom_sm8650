@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "246e7e90_c2c80207",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-11-17T08:51:36Z",
+      "side": 1,
+      "message": "Hmmm... this basically tells us that the header isn\u0027t being exported and if no compilations errors are hit, then it\u0027s not being needed.",
+      "revId": "36dc0dc422049cfd63e76cb78fd22cb92811cd61",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
