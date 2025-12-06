@@ -34,6 +34,24 @@
       "parentUuid": "62abc04e_1f9eb8d6",
       "revId": "94fc6f924097c76afb10cab7c275cbcbcbc155f0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "97d7e351_453c1531",
+        "filename": "drivers/bus/mhi/host/init.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-12-06T02:48:15Z",
+      "side": 0,
+      "message": "Yes, I’m also using it without this commit. However, based on the investigation, CLO has skipped this commit in the newer kernel.",
+      "parentUuid": "3f7933a4_3e4d2f37",
+      "revId": "94fc6f924097c76afb10cab7c275cbcbcbc155f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
