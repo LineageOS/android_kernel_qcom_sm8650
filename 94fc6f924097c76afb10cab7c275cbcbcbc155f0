@@ -16,6 +16,24 @@
       "message": "I also resolved the conflicts like this on sm8550 and sm8750, but it doesn\u0027t compile.",
       "revId": "94fc6f924097c76afb10cab7c275cbcbcbc155f0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3f7933a4_3e4d2f37",
+        "filename": "drivers/bus/mhi/host/init.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-06T01:03:33Z",
+      "side": 0,
+      "message": "Oh well, I decided to skip this commit.",
+      "parentUuid": "62abc04e_1f9eb8d6",
+      "revId": "94fc6f924097c76afb10cab7c275cbcbcbc155f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
