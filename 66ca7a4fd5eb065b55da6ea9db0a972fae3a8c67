@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "18c20423_9eabb928",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2026-04-08T17:37:33Z",
+      "side": 1,
+      "message": "conflict resolution is reasonable, builds \u0026 boots on FP6.\nMerge on monday, 13.04",
+      "revId": "66ca7a4fd5eb065b55da6ea9db0a972fae3a8c67",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
