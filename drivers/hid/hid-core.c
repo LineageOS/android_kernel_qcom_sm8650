@@ -1983,8 +1983,8 @@ out:
 }
 EXPORT_SYMBOL_GPL(__hid_request);
 
-int __hid_report_raw_event(struct hid_device *hid, enum hid_report_type type, u8 *data,
-			   size_t bufsize, u32 size, int interrupt)
+int hid_report_raw_event(struct hid_device *hid, enum hid_report_type type, u8 *data,
+			 size_t bufsize, u32 size, int interrupt)
 {
 	struct hid_report_enum *report_enum = hid->report_enum + type;
 	struct hid_report *report;
@@ -2060,13 +2060,6 @@ int __hid_report_raw_event(struct hid_device *hid, enum hid_report_type type, u8
 
 	return ret;
 }
-EXPORT_SYMBOL_GPL(__hid_report_raw_event);
-
-int hid_report_raw_event(struct hid_device *hid, enum hid_report_type type, u8 *data, u32 size,
-			 int interrupt)
-{
-	return __hid_report_raw_event(hid, type, data, size, size, interrupt);
-}
 EXPORT_SYMBOL_GPL(hid_report_raw_event);
 
 /**
@@ -2125,7 +2118,7 @@ int hid_input_report(struct hid_device *hid, enum hid_report_type type, u8 *data
 			goto unlock;
 	}
 
-	ret = __hid_report_raw_event(hid, type, data, bufsize, size, interrupt);
+	ret = hid_report_raw_event(hid, type, data, bufsize, size, interrupt);
 
 unlock:
 	up(&hid->driver_input_lock);
