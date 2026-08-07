@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5d6583a2_cc24fe78",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-08-07T07:11:35Z",
+      "side": 1,
+      "message": "This is rejecting new changes in the conflicts. Take a look at sm8550 merge.",
+      "revId": "61bacf2b2133a85c73fa4e557a706507c5f7bcb0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
