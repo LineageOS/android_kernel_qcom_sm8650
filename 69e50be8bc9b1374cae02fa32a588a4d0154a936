@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0afceadb_fe3ed302",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16908
+      },
+      "writtenOn": "2026-11-04T02:39:19Z",
+      "side": 1,
+      "message": "Documentation/devicetree/bindings~HEAD ?",
+      "revId": "69e50be8bc9b1374cae02fa32a588a4d0154a936",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
