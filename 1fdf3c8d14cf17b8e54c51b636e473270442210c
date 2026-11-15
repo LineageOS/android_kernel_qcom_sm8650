@@ -16,6 +16,23 @@
       "message": "no freeze anymore",
       "revId": "1fdf3c8d14cf17b8e54c51b636e473270442210c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0abdf03b_d5852b6e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29415
+      },
+      "writtenOn": "2026-11-15T07:01:21Z",
+      "side": 1,
+      "message": "This comes from 6.1 LTS, ACK merged a prior LTS ver that regressed PM stuff, was fixed later but ACK still has not picked it up.\n\nMore context here since commit message is lacking:\nhttps://lore.kernel.org/linux-pm/20260829-stable-daily-0004-pm-sleep-complete-revert@kernel.org",
+      "revId": "1fdf3c8d14cf17b8e54c51b636e473270442210c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
